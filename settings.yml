@@ -1,0 +1,18 @@
+---
+octopus.servers:
+  - name: Octo Server 1
+    url: https://octopus.server
+    key: API-
+    env:
+      test: Test
+    channels:
+      dev: CICD
+      prod: Production
+  - name: Octo Server 2
+    url: https://octopus2.server
+    key: API-
+    env:
+      test: Test
+    channels:
+      dev: CICD
+      prod: Production
